@@ -9,7 +9,7 @@ while n!= guess: # means if n is not equal to the input guess
     if guess < n:
         print("Too low")
         # to again ask for input
-        guess = int(input("Enter number again: "))
+        guess = int(input("Enter the number again: "))
     # if guess is greater than n
     elif guess > n:
         print("Too high!")
